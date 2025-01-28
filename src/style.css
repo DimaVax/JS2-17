@@ -1,0 +1,28 @@
+html {
+  background-image: url("./img/sky.webp");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.img-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.img-list__img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 33px 27px 34px 0px rgba(130, 130, 130, 0.63);
+  -webkit-box-shadow: 33px 27px 34px 0px rgba(130, 130, 130, 0.63);
+  -moz-box-shadow: 33px 27px 34px 0px rgba(130, 130, 130, 0.63);
+}
+.img-list__btn {
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  margin: 50px auto 0 auto;
+  display: block;
+}
