@@ -1,0 +1,30 @@
+html {
+  background-image: url("sky.93f3cffe.webp");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  display: flex;
+}
+
+.img-list__img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 33px 27px 34px #828282a1;
+}
+
+.img-list__btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  margin: 50px auto 0;
+  display: block;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
